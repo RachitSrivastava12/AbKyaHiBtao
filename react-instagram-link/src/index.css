@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+  background-color: #ffcccb; /* Light Pink Background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form and GeneratedLink Styles */
+div {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+  background-color: #add8e6; /* Light Blue Background */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%; /* Circle Shape */
+  width: 50px;
+  height: 50px;
+  line-height: 20px;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+}
